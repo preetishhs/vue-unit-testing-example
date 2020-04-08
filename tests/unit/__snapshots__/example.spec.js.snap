@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Todo snapshot checks check if input box renders correctly 1`] = `
+<section>
+  <h1>TO DO LIST</h1>
+  <div class="todoapp">
+    <header class="header"><input autofocus="autofocus" autocomplete="off" placeholder="Add an item" class="new-todo"></header>
+    <section class="main" style="display: none;">
+      <ul class="todo-list"></ul>
+    </section>
+    <footer class="footer" style="display: none;">
+      <div class="total">Items: 0</div> <button class="async-add">Async Add</button>
+      <div class="completed-list">Completed: 0</div>
+    </footer>
+  </div>
+</section>
+`;
